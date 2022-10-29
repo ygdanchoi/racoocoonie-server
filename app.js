@@ -9,6 +9,7 @@ app.get('/get', (req, res) => {
 });
 
 app.get('/set', (req, res) => {
+  console.log(query.data)
   data = req.query.data
 });
 
